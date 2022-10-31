@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/DzIgnatFigma/static/css/main.08d72447.css",
-    "main.js": "/DzIgnatFigma/static/js/main.cd896c76.js",
+    "main.js": "/DzIgnatFigma/static/js/main.ae378d5f.js",
     "static/js/787.66cb4309.chunk.js": "/DzIgnatFigma/static/js/787.66cb4309.chunk.js",
     "static/media/avatar.png": "/DzIgnatFigma/static/media/avatar.d947cb9d0d13765666b6.png",
     "index.html": "/DzIgnatFigma/index.html",
     "main.08d72447.css.map": "/DzIgnatFigma/static/css/main.08d72447.css.map",
-    "main.cd896c76.js.map": "/DzIgnatFigma/static/js/main.cd896c76.js.map",
+    "main.ae378d5f.js.map": "/DzIgnatFigma/static/js/main.ae378d5f.js.map",
     "787.66cb4309.chunk.js.map": "/DzIgnatFigma/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.08d72447.css",
-    "static/js/main.cd896c76.js"
+    "static/js/main.ae378d5f.js"
   ]
 }
