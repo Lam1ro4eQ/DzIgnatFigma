@@ -1,6 +1,7 @@
 .sendForm {
     display: flex;
     margin: 70px 70px 32px 70px;
+    width: 100%;
 }
 
 .textarea {
@@ -20,6 +21,7 @@
     padding: 12px 24px 12px 24px;
     resize:none;
     outline: none;
+    margin-right: 44px;
 }
 
 .button {
@@ -38,8 +40,8 @@
 }
 
 .button:hover {
-
+background: #cc0000;
 }
 .button:active {
-
+background: #0066cc;
 }
