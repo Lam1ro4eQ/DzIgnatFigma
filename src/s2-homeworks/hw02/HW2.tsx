@@ -39,12 +39,12 @@ export const filterAffairs = (affairs: Array<AffairType>, filter: FilterType): A
     if (filter === "all") {
         return affairs
     }
-    if (filter === "high") {
-        let filteredAffairs = affairs.filter(t => t.priority === "high")
-        return filteredAffairs
-    }
     if (filter === "low") {
         let filteredAffairs = affairs.filter(t => t.priority === "low")
+        return filteredAffairs
+    }
+    if (filter === "high") {
+        let filteredAffairs = affairs.filter(t => t.priority === "high")
         return filteredAffairs
     }
     if (filter === "middle") {
