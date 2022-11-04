@@ -10,7 +10,9 @@ const setError = (a: any) => {
     error = a
 }
 let added: any
-const addUserCallback = () => {
+let users = [] as string[]
+const addUserCallback = (name: string) => {
+    users.push(name)
     added = true
 }
 
@@ -38,6 +40,7 @@ test('name 3', () => {
     name = '    '
     pureAddUser(name, setError, setName, addUserCallback)
     expect(name).toBe('    ')
+    expect(users.length).toBe(0)
     expect(error).toBe('Ошибка! Введите имя!')
     expect(added).toBe(false)
 })
