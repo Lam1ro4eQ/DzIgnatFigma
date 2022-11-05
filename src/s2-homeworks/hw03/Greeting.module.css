@@ -1,35 +1,92 @@
 .greetingForm {
+    margin-left: 70px;
+    margin-top: 65px;
+    margin-bottom: 240px;
 }
 
 .inputAndButtonContainer {
+    display: flex;
+    flex-direction: row;
+
 }
 
 .error {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 5px;
+    color: #cc0000;
 }
 
-.input {
+.input  {
+    box-sizing: border-box;
+    border: 1.5px solid #D1D1D1;
+    border-radius: 5px;
+    width: 372px;
+    height: 36px;
+    margin: 9px 12px 9px 0px;
+    padding: 0 20px 0 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    outline:none;
 }
 
 .input:focus {
+    outline:none;
+    border: 1.5px solid #000000;
 }
 
 .errorInput {
+    box-sizing: border-box;
+    border: 1.5px solid red;
+    border-radius: 5px;
+    width: 372px;
+    height: 36px;
+    margin: 9px 12px 0px 0px;
+    padding: 0 20px 0 20px;
+    outline:none;
 }
 
 .button {
+    background: #0066CC;
+    border-radius: 3px;
+    border: none;
+    width: 78px;
+    height: 36px;
+    margin-top: 9px;
+    align-items: center;
+    padding: 5px 24px;
+    color: #FFFFFF;
 }
 
 .button:focus {
+    background: #0066CC;
+    border: none;
 }
 
 .button:active {
+    background: #0066CC;
 }
 
 .button:disabled {
+    background: #0066CC;
+    opacity: 0.5;
 }
 
 .text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .greeting {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
 }
