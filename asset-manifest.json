@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/DzIgnatFigma/static/css/main.f1a5e1bc.css",
-    "main.js": "/DzIgnatFigma/static/js/main.9682dbb7.js",
+    "main.js": "/DzIgnatFigma/static/js/main.04780bdc.js",
     "static/js/787.66cb4309.chunk.js": "/DzIgnatFigma/static/js/787.66cb4309.chunk.js",
     "static/media/avatar.png": "/DzIgnatFigma/static/media/avatar.d947cb9d0d13765666b6.png",
     "static/media/checked.svg": "/DzIgnatFigma/static/media/checked.b75ca55e8759862b4083.svg",
     "index.html": "/DzIgnatFigma/index.html",
     "main.f1a5e1bc.css.map": "/DzIgnatFigma/static/css/main.f1a5e1bc.css.map",
-    "main.9682dbb7.js.map": "/DzIgnatFigma/static/js/main.9682dbb7.js.map",
+    "main.04780bdc.js.map": "/DzIgnatFigma/static/js/main.04780bdc.js.map",
     "787.66cb4309.chunk.js.map": "/DzIgnatFigma/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f1a5e1bc.css",
-    "static/js/main.9682dbb7.js"
+    "static/js/main.04780bdc.js"
   ]
 }
