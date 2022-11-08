@@ -1,8 +1,9 @@
 .sidebar {
-    display: none;
+
 }
 
 .sidebar.open {
+
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -17,6 +18,8 @@
 }
 
 .background {
+    background: #000000;
+    opacity: 0.3;
 }
 
 .nav {
