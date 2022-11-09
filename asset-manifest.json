@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/DzIgnatFigma/static/css/main.596715c7.css",
-    "main.js": "/DzIgnatFigma/static/js/main.3fa021bf.js",
+    "main.css": "/DzIgnatFigma/static/css/main.aad7536d.css",
+    "main.js": "/DzIgnatFigma/static/js/main.72607977.js",
     "static/js/787.66cb4309.chunk.js": "/DzIgnatFigma/static/js/787.66cb4309.chunk.js",
     "static/media/avatar.png": "/DzIgnatFigma/static/media/avatar.d947cb9d0d13765666b6.png",
     "static/media/404.svg": "/DzIgnatFigma/static/media/404.9ec31c0ba8d95b0480272e46af98c955.svg",
@@ -9,12 +9,12 @@
     "static/media/checked.svg": "/DzIgnatFigma/static/media/checked.b75ca55e8759862b4083.svg",
     "index.html": "/DzIgnatFigma/index.html",
     "static/media/burger.svg": "/DzIgnatFigma/static/media/burger.700e416f7bfe3697f96b36c778d25355.svg",
-    "main.596715c7.css.map": "/DzIgnatFigma/static/css/main.596715c7.css.map",
-    "main.3fa021bf.js.map": "/DzIgnatFigma/static/js/main.3fa021bf.js.map",
+    "main.aad7536d.css.map": "/DzIgnatFigma/static/css/main.aad7536d.css.map",
+    "main.72607977.js.map": "/DzIgnatFigma/static/js/main.72607977.js.map",
     "787.66cb4309.chunk.js.map": "/DzIgnatFigma/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.596715c7.css",
-    "static/js/main.3fa021bf.js"
+    "static/css/main.aad7536d.css",
+    "static/js/main.72607977.js"
   ]
 }
