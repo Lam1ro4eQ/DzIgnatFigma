@@ -9,7 +9,11 @@ type PropsType = {
     open: boolean
     handleClose: () => void
 }
-
+//1. затетстить сейчас
+// если нет - скачать 5 домашку, поменять папки. поменять роуты типа junior-plus на junior_plus
+// и добавить в Navlink className={({isActive})=>(isActive? s.active: "")}
+// БЕЗ CSS
+//
 
 export const Sidebar: FC<PropsType> = ({open, handleClose}) => {
     const sidebarClass = s.sidebar
@@ -21,7 +25,7 @@ export const Sidebar: FC<PropsType> = ({open, handleClose}) => {
             {/*затемнение справа от открытого меню*/}
             {open && <div className={s.background} onClick={handleClose}/>}
 
-            {open &&    <aside className={sidebarClass}>
+            <aside className={sidebarClass}>
                 <button className={s.close} onClick={handleClose}>
                     <img
                         src={closeIcon}
@@ -38,6 +42,7 @@ export const Sidebar: FC<PropsType> = ({open, handleClose}) => {
                         className={ location.pathname === PATH.PRE_JUNIOR
                             ? s.active : ''} // делает студент
                     >
+                        {/*({isActive})=>(isActive? s.active: "") или так использовать активный класс*/}
                         Pre-junior
                     </NavLink>
                     <NavLink
@@ -59,7 +64,7 @@ export const Sidebar: FC<PropsType> = ({open, handleClose}) => {
                         Junior Plus
                     </NavLink>
                 </nav>
-            </aside> }
+            </aside>
         </>
     )
 }
