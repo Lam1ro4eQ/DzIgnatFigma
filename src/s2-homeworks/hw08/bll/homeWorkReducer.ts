@@ -10,12 +10,12 @@ export const homeWorkReducer = (state: UserType[], action: ActionType): any => {
             switch (action.payload) {
                 case "up": {
                     const collatore = new Intl.Collator
-                    let sortState = state.sort((x, y) => collatore.compare(x.name, y.name))
+                    let sortState = [...state].sort((x, y) => collatore.compare(x.name, y.name))
                     return sortState // need to fix
                 }
                 case "down": {
                     const collatore = new Intl.Collator
-                    let sortState = state.sort((x, y) => collatore.compare(y.name, x.name))
+                    let sortState = [...state].sort((x, y) => collatore.compare(y.name, x.name))
                     return sortState // need to fix
                 }
             }
