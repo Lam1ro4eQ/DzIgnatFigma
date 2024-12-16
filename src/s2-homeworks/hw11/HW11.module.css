@@ -1,8 +1,52 @@
 .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Отступ между слайдерами */
+    max-width: 400px;
+    margin: 0 auto;
 }
 
 .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Отступы между числами и слайдером */
 }
 
 .number {
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+/* Общие стили для слайдеров */
+.srClass {
+    -webkit-appearance: none; /* Убирает стандартный стиль браузера */
+    width: 200px; /* Длина слайдера */
+    height: 6px;
+    background: lightgray; /* Цвет фона */
+    border-radius: 5px;
+    outline: none;
+    transition: background 0.3s ease-in-out;
+}
+/* Ползунок (ползунок-слайдер) */
+.srClass::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 16px;
+    height: 16px;
+    background: limegreen; /* Цвет ползунка */
+    border: 2px solid white;
+    border-radius: 50%; /* Круглый ползунок */
+    cursor: pointer;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5);
+    transition: background 0.3s ease-in-out;
+}
+/* Полоса, пройденная слайдером (активная область) */
+.srClass::-webkit-slider-runnable-track {
+    height: 6px;
+    border-radius: 5px;
+    background: lightgray; /* Фоновый цвет */
+}
+/* Стили для активной (заполненной) полосы */
+.srClass:active::-webkit-slider-runnable-track {
+    background: limegreen;
 }
