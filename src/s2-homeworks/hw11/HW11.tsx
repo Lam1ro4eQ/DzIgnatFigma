@@ -3,7 +3,7 @@ import s from './HW11.module.css'
 
 import {restoreState} from '../hw06/localStorage/localStorage'
 import SuperRange from './common/c7-SuperRange/SuperRange'
-import {isArray} from "util";
+
 
 /*
 * 1 - передать значения в оба слайдера
@@ -37,7 +37,7 @@ function HW11() {
                     <SuperRange
                         className={s.slider}
                         value={value1}
-                        onChange={(event, newValue) => change(event, newValue)}
+                        onChange={(event, newValue) => change(event, newValue as number)}
                     />
                 </div>
 
@@ -47,7 +47,7 @@ function HW11() {
                     <SuperRange
                         className={s.slider}
                         value={[value1, value2]}
-                        onChange={(event, newValue) => change(event, newValue)}
+                        onChange={(event, newValue) => change(event, newValue as number[])}
                     />
                     <span className={s.number}>{value2}</span>
                 </div>
