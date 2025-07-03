@@ -1,7 +1,7 @@
 {
-  "name": "hws2",
+  "name": "DzIgnatFigma",
   "homepage": "https://Lam1ro4eQ.github.io/DzIgnatFigma",
-  "version": "0.1.0",
+  "version": "yws",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.16.0",
@@ -71,7 +71,8 @@
     "webpack": "^5.64.4",
     "webpack-dev-server": "^4.6.0",
     "webpack-manifest-plugin": "^4.0.2",
-    "workbox-webpack-plugin": "^6.4.1"
+    "workbox-webpack-plugin": "^6.4.1",
+    "yarn": "^1.22.22"
   },
   "scripts": {
     "start": "node scripts/start.js",
@@ -99,7 +100,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3"
+    "gh-pages": "^4.0.0"
   },
   "jest": {
     "roots": [
@@ -156,5 +157,9 @@
     "presets": [
       "react-app"
     ]
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/Lam1ro4eQ/DzIgnatFigma",
+  "author": "\\",
+  "license": "MIT"
 }

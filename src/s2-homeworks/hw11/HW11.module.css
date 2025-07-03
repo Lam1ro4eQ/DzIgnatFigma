@@ -1,52 +1,56 @@
+/* Основные стили */
+#hw11 {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hwTitle {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
 .container {
     display: flex;
     flex-direction: column;
-    gap: 20px; /* Отступ между слайдерами */
-    max-width: 400px;
-    margin: 0 auto;
+    gap: 30px;
 }
 
 .wrapper {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 10px; /* Отступы между числами и слайдером */
+    gap: 15px;
 }
 
 .number {
     font-size: 18px;
-    color: black;
     font-weight: bold;
+    width: 40px;
+    text-align: center;
 }
-/* Общие стили для слайдеров */
-.srClass {
-    -webkit-appearance: none; /* Убирает стандартный стиль браузера */
-    width: 200px; /* Длина слайдера */
+
+/* Стили для слайдеров */
+.slider {
+    flex-grow: 1;
+    max-width: 300px;
+}
+
+/* Стилизация полосы и ползунка */
+.slider .MuiSlider-rail {
+    background-color: #ddd;
     height: 6px;
-    background: lightgray; /* Цвет фона */
-    border-radius: 5px;
-    outline: none;
-    transition: background 0.3s ease-in-out;
 }
-/* Ползунок (ползунок-слайдер) */
-.srClass::-webkit-slider-thumb {
-    -webkit-appearance: none;
+
+.slider .MuiSlider-track {
+    background-color: #4CAF50;
+    height: 6px;
+}
+
+.slider .MuiSlider-thumb {
     width: 16px;
     height: 16px;
-    background: limegreen; /* Цвет ползунка */
+    background-color: #4CAF50;
     border: 2px solid white;
-    border-radius: 50%; /* Круглый ползунок */
-    cursor: pointer;
-    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5);
-    transition: background 0.3s ease-in-out;
-}
-/* Полоса, пройденная слайдером (активная область) */
-.srClass::-webkit-slider-runnable-track {
-    height: 6px;
-    border-radius: 5px;
-    background: lightgray; /* Фоновый цвет */
-}
-/* Стили для активной (заполненной) полосы */
-.srClass:active::-webkit-slider-runnable-track {
-    background: limegreen;
+    box-shadow: 0 0 2px rgba(0,0,0,0.3);
 }
