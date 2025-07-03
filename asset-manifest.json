@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/DzIgnatFigma/static/css/main.5702d8d6.css",
-    "main.js": "/DzIgnatFigma/static/js/main.97f102b5.js",
+    "main.js": "/DzIgnatFigma/static/js/main.66ae3092.js",
     "static/js/787.77b4b0ba.chunk.js": "/DzIgnatFigma/static/js/787.77b4b0ba.chunk.js",
     "static/media/avatar.png": "/DzIgnatFigma/static/media/avatar.d947cb9d0d13765666b6.png",
     "static/media/404.svg": "/DzIgnatFigma/static/media/404.dae7af4892f2a3abe805a174178919f2.svg",
@@ -12,11 +12,11 @@
     "index.html": "/DzIgnatFigma/index.html",
     "static/media/burger.svg": "/DzIgnatFigma/static/media/burger.e4e6b98e4ee0b2dfcd76d02a9eed2e34.svg",
     "main.5702d8d6.css.map": "/DzIgnatFigma/static/css/main.5702d8d6.css.map",
-    "main.97f102b5.js.map": "/DzIgnatFigma/static/js/main.97f102b5.js.map",
+    "main.66ae3092.js.map": "/DzIgnatFigma/static/js/main.66ae3092.js.map",
     "787.77b4b0ba.chunk.js.map": "/DzIgnatFigma/static/js/787.77b4b0ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5702d8d6.css",
-    "static/js/main.97f102b5.js"
+    "static/js/main.66ae3092.js"
   ]
 }
