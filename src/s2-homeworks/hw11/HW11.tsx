@@ -9,10 +9,14 @@ function HW11() {
 
     const change = (event: Event, value: number | number[]) => {
         if (Array.isArray(value)) {
-            setValue1(value[0])
-            setValue2(value[1])
+            // Гарантируем точное совпадение значений
+            const roundedValue1 = Math.round(value[0] * 100) / 100
+            const roundedValue2 = Math.round(value[1] * 100) / 100
+            setValue1(roundedValue1)
+            setValue2(roundedValue2)
         } else {
-            setValue1(value)
+            const roundedValue = Math.round(value * 100) / 100
+            setValue1(roundedValue)
         }
     }
 
@@ -27,7 +31,8 @@ function HW11() {
                         <SuperRange
                             id={'hw11-single-slider'}
                             value={value1}
-                            onChange={(event, newValue) => change(event, newValue as number)}
+                            onChange={change}
+                            style={{ width: '300px' }} // Фиксированная ширина
                         />
                     </div>
                     <div className={s.wrapper}>
@@ -35,7 +40,8 @@ function HW11() {
                         <SuperRange
                             id={'hw11-double-slider'}
                             value={[value1, value2]}
-                            onChange={(event, newValue) => change(event, newValue as number[])}
+                            onChange={change}
+                            style={{ width: '300px' }} // Такая же ширина
                         />
                         <span id={'hw11-value-2'} className={s.number}>{value2}</span>
                     </div>
