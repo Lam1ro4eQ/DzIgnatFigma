@@ -54,3 +54,16 @@
     border: 2px solid white;
     box-shadow: 0 0 2px rgba(0,0,0,0.3);
 }
+/* Гарантируем одинаковые размеры слайдеров */
+#hw11-single-slider,
+#hw11-double-slider {
+    width: 300px !important;
+    margin: 0 15px;
+}
+
+/* Стили для ползунков */
+#hw11-single-slider .MuiSlider-thumb,
+#hw11-double-slider .MuiSlider-thumb {
+    width: 16px;
+    height: 16px;
+}

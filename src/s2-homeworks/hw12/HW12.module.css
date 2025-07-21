@@ -17,7 +17,32 @@ html {
     background-color: var(--background);
     color: var(--color);
 }
+.h12block {
+    margin-left: 80px;
+}
+.select {width: 171px;
+    height: 36px;
+    border: 1px solid #323232;
+    padding: 0 25px 0 10px;
+    font-size: 14px;
 
-.select {
+    /* Убираем стандартную стрелку */
+    appearance: none;
 
+    /* Простая кастомная стрелка (▼) */
+    background:
+        /* Стрелка: две линии образующие треугольник */
+            url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='6' viewBox='0 0 12 6'><path stroke='%23323232' stroke-width='1.5' fill='none' d='M1 1L6 5L11 1'/></svg>")
+            no-repeat right 8px center/12px 6px;
+    cursor: pointer;
+}
+
+/* При наведении */
+.super-select:hover {
+    border-color: #666;
+}
+.h2css {
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom:  10px;
 }
