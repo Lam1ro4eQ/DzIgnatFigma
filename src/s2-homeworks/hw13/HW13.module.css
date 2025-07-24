@@ -1,3 +1,5 @@
+
+
 .buttonsContainer {
 }
 
@@ -19,4 +21,46 @@
 .text {
 }
 .info {
+}
+
+.buttonsContainer {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.responseContainer {
+    display: flex;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f5f7fb;
+}
+
+.imageContainer {
+    margin-right: 20px;
+}
+
+.image {
+    width: 80px;
+    height: 80px;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.code {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.text {
+    margin-bottom: 5px;
+}
+
+.info {
+    color: #666;
+    font-size: 14px;
 }
