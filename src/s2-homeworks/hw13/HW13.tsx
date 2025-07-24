@@ -36,7 +36,7 @@ const HW13 = () => {
         axios
             .post(url, {success: x})
             .then((res) => {
-                setCode('Код 200!')
+                setCode('200')
                 setImage(success200)
                 setText(res.data.errorsText || 'все ок')
                 setInfo(res.data.data.info || 'все не ок')
@@ -45,12 +45,12 @@ const HW13 = () => {
             .catch((e) => {
                     if (e.response) {
                         if (e.response.status === 400) {
-                            setCode('Ошибка 400!')
+                            setCode('400')
                             setImage(error400)
                             setText(e.response.data.errorText)
                             setInfo(e.response.data.info)
                         } else if (e.response.status === 500) {
-                            setCode('Ошибка 500!')
+                            setCode('500')
                             setImage(error500)
                             setText(e.response.data.errorText)
                             setInfo(e.response.data.info)
