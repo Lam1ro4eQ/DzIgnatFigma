@@ -1,9 +1,13 @@
 {
   "files": {
-    "main.css": "/DzIgnatFigma/static/css/main.cf891ee8.css",
-    "main.js": "/DzIgnatFigma/static/js/main.f0825afe.js",
+    "main.css": "/DzIgnatFigma/static/css/main.35def093.css",
+    "main.js": "/DzIgnatFigma/static/js/main.9b3a363a.js",
     "static/js/787.77b4b0ba.chunk.js": "/DzIgnatFigma/static/js/787.77b4b0ba.chunk.js",
     "static/media/avatar.png": "/DzIgnatFigma/static/media/avatar.d947cb9d0d13765666b6.png",
+    "static/media/200.svg": "/DzIgnatFigma/static/media/200.2b4de1542921864a6ecb8c3301ea4670.svg",
+    "static/media/error.svg": "/DzIgnatFigma/static/media/error.9a99652a785b87f2f448e23e5da3045d.svg",
+    "static/media/500.svg": "/DzIgnatFigma/static/media/500.65355d1617c6a93fc93572680052f0b7.svg",
+    "static/media/400.svg": "/DzIgnatFigma/static/media/400.4e46e304dcfdcae89fcfb902d8863816.svg",
     "static/media/404.svg": "/DzIgnatFigma/static/media/404.dae7af4892f2a3abe805a174178919f2.svg",
     "static/media/closeOutline.svg": "/DzIgnatFigma/static/media/closeOutline.91a6693133923612a0702421ab3e9923.svg",
     "static/media/Ellipse 4.svg": "/DzIgnatFigma/static/media/Ellipse 4.fbc2c06ca9432947130819f85f7dc21e.svg",
@@ -11,12 +15,12 @@
     "static/media/checked.svg": "/DzIgnatFigma/static/media/checked.0b6a1bcf5d417ff0a947.svg",
     "index.html": "/DzIgnatFigma/index.html",
     "static/media/burger.svg": "/DzIgnatFigma/static/media/burger.e4e6b98e4ee0b2dfcd76d02a9eed2e34.svg",
-    "main.cf891ee8.css.map": "/DzIgnatFigma/static/css/main.cf891ee8.css.map",
-    "main.f0825afe.js.map": "/DzIgnatFigma/static/js/main.f0825afe.js.map",
+    "main.35def093.css.map": "/DzIgnatFigma/static/css/main.35def093.css.map",
+    "main.9b3a363a.js.map": "/DzIgnatFigma/static/js/main.9b3a363a.js.map",
     "787.77b4b0ba.chunk.js.map": "/DzIgnatFigma/static/js/787.77b4b0ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf891ee8.css",
-    "static/js/main.f0825afe.js"
+    "static/css/main.35def093.css",
+    "static/js/main.9b3a363a.js"
   ]
 }
