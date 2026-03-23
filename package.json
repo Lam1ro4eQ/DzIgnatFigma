@@ -98,9 +98,6 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "gh-pages": "^4.0.0"
-  },
   "jest": {
     "roots": [
       "<rootDir>/src"
@@ -160,5 +157,9 @@
   "main": "index.js",
   "repository": "https://github.com/Lam1ro4eQ/DzIgnatFigma",
   "author": "\\",
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://Lam1ro4eQ.github.io/DzIgnatFigma",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
 }
